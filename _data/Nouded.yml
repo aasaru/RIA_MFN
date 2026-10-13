@@ -262,8 +262,8 @@
       son: 'Rakendus peab olema loodud sõltumatuna rakendusserveri tarkvarast.'
       sel: 'Rakendust peab olema võimalik konfiguratsioonimuudatuste abil paigaldada teisele samatüübilisele rakendusserverile. Kui see ei ole võimalik tuleb rakendusele luua sobituspaketid põhiliselt kasutatavate rakendusserverite jaoks.'
     - nr: 3
-      son: 'Kõik rakenduse versiooniuuendused (sealhulgas muudatused andmebaasi struktuuris ja koodis) peavad kuni järgmise versiooniuuenduseni olema täielikult tagasi pööratavad st. koos versiooni uuendusega peavad olema loodud vahendid ja kirjeldatud protseduurid versiooniuuenduse tagasi võtmiseks.'
-      sel: ''
+      son: 'Rakenduse versiooniuuendus peab olema tagasi võetav: rakenduse saab pöörata tagasi eelmisele versioonile ja andmebaasi saab vajadusel taastada seisule, mis oli enne uuendust.'
+      sel: 'Andmebaasi muudatused tehakse tagasiühilduvalt, nii et eelmine rakenduse versioon töötab uue versiooni skeemiga. Näiteks veergu ei kustutata ega nimetata ümber samas väljalaskes, kus rakendus selle kasutamise lõpetab, vaid alles järgmises. Nii saab rakenduse tagasi pöörata ilma andmebaasi muutmata. Andmebaasist tehakse enne väljalaset taastatav hetktõmmis (_snapshot_), mille abil saab andmebaasi rikke korral taastada.'
     - nr: 4
       son: 'Rakendus ei tohi eeldada paigalduskeskkonna turvalisust.'
       sel: ''

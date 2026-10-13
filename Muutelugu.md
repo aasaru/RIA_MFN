@@ -3,6 +3,10 @@ permalink: Muutelugu
 ---
 
 ## Muutelugu
+___13\.10.2026___
+
+- Versiooniuuenduse tagasivõetavuse nõue viidud vastavusse praeguse tavaga: andmebaasi muudatused on tagasiühilduvad, rakendust saab tagasi pöörata ja andmebaasist tehakse enne väljalaset taastatav hetktõmmis. Varasem nõue eeldas, et igal andmebaasi migratsioonil on vastupidine migratsioon. [MFN 19.3](https://e-gov.github.io/MFN/#19.3)
+
 ___26\.09.2025___
 
 - Lisatud SBOM loomise nõue. [MFN 20.11](https://e-gov.github.io/MFN/#20.11)
