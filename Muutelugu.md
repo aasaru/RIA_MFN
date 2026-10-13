@@ -5,6 +5,7 @@ permalink: Muutelugu
 ## Muutelugu
 ___13\.10.2026___
 - Jenkinsi asemel vaikimisi GitLab. [MFN 6.5](https://e-gov.github.io/MFN/#6.5)
+- Paki nimi võib sisaldada punkti. [MFN 18.2](https://e-gov.github.io/MFN/#18.2)
 
 ___26\.09.2025___
 
