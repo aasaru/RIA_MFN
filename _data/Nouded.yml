@@ -208,8 +208,8 @@
   nimetus: 'logimine'
   nouded:
     - nr: 1
-      son: 'Rakenduse logimine peab olema organiseeritud kasutades selleks ettenähtud standardseid vahendeid viisil, mis võimaldab rakenduse administraatoril määratleda ja muuta logide väljundit (vähemalt fail, andmebaas, `syslogd`), logimise taset ja logimise formaati.'
-      sel: ''
+      son: 'Rakendus kirjutab logid standardväljundisse (`stdout`/`stderr`). Logide kogumise, edastamise ja säilitamise eest vastutab käituskeskkond, mitte rakendus. Logimise tase peab olema seadistatav rakendust uuesti ehitamata.'
+      sel: 'Konteineris käivituv rakendus ei kirjuta logisid faili, andmebaasi, `syslog`-i ega otse logiserverisse: platvorm (nt Kubernetes) kogub standardväljundi ja edastab selle kesksesse logihaldusesse. Nii on logimine ühesugune kõigis keskkondades, rakendus ei vaja logi sihtkoha seadistust ega kettamahtu logifailide jaoks ning logid ei kao koos konteineriga. Rakendus kasutab logimiseks standardset logiteeki, mitte otse `print`/`console.log` laadseid käske, et tase ja vorming oleksid seadistatavad. Logitase antakse ette seadistusest (vt [19.6](https://e-gov.github.io/MFN/#19.6)). Logikirje vorming vt [17.2](https://e-gov.github.io/MFN/#17.2).'
     - nr: 2
       son: 'Iga infosüsteemi komponent/rakendus logib sündmused struktureeritult JSON-formaadis. Logikirjete sisu vastab OpenTelemetry (OTel) standardile.'
       sel: 'Struktureeritud JSON-logimine võimaldab logide tõhusat töötlemist ja analüüsi. OTel standardi järgimine tagab logiväljade ühtlustamise süsteemide vahel, lihtsustades logide koondamist ja seiret. OTel kirjeldus vt. https://opentelemetry.io/docs/specs/otel/ '
