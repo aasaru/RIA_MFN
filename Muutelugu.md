@@ -6,6 +6,8 @@ permalink: Muutelugu
 ___22\.10.2026___
 
 - Sass-i kasutamise soovitus tunnistatud kehtetuks, sest tänapäevane CSS juba katab Sass-i peamised kasutusjuhud [MFN 8.2](https://e-gov.github.io/MFN/#8.2)
+- Logimise nõue viidud konteineripaigaldusele vastavaks: logid kirjutatakse standardväljundisse, kogumise ja säilitamise eest vastutab käituskeskkond. [MFN 17.1](https://e-gov.github.io/MFN/#17.1)
+- Turvalogi täpsustatud: mitte eraldi väljund, vaid samas voos eraldi märgendatud kirjed, mille käituskeskkond eraldi hoidlasse suunab. [MFN 17.4](https://e-gov.github.io/MFN/#17.4)
 
 ___26\.09.2025___
 
