@@ -268,8 +268,8 @@
       son: 'Rakendus ei tohi eeldada paigalduskeskkonna turvalisust.'
       sel: ''
     - nr: 5
-      son: 'Rakendusservereid peab olema võimalik lisada teenust pakkuvasse klastrisse ja sealt eemaldada vastavalt vajadusele.'
-      sel: ''
+      son: '(kehtetu)'
+      sel: 'Kehtetu alates 22.10.2026. Nõudis, et rakendusservereid saaks teenust pakkuvasse klastrisse lisada ja sealt eemaldada vastavalt vajadusele. Eraldi rakendusserveri olemasoleu eeldus on aegunud; horisontaalse skaleeritavuse katab nõue [23.2](https://e-gov.github.io/MFN/#23.2).'
     - nr: 6
       son: 'Rakendus ei tohi kasutada konfigureerimata viiteid failidele või välistele süsteemidele st. kõik viited peavad olema programmikoodi välised.'
       sel: ''
