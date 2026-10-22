@@ -3,6 +3,12 @@ permalink: Muutelugu
 ---
 
 ## Muutelugu
+___22\.10.2026___
+
+- Lisatud nõue: saladuste hoidlas hoitakse ainult tegelikke saladusi, mittesensitiivsed seadistusväärtused on paigaldusrepo koodis. [MFN 19.10](https://e-gov.github.io/MFN/#19.10)
+- Rakendusserverit ja JNDI-d eeldavad nõuded tunnistatud kehtetuks: [MFN 16.10](https://e-gov.github.io/MFN/#16.10), [MFN 18.7](https://e-gov.github.io/MFN/#18.7), [MFN 19.2](https://e-gov.github.io/MFN/#19.2), [MFN 19.7](https://e-gov.github.io/MFN/#19.7), [MFN 19.8](https://e-gov.github.io/MFN/#19.8).
+
+
 ___26\.09.2025___
 
 - Lisatud SBOM loomise nõue. [MFN 20.11](https://e-gov.github.io/MFN/#20.11)
